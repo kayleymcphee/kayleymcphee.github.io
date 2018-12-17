@@ -26,12 +26,6 @@ h1 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-body ul  {
-    font-size: 1em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    line-height: 1.2em;
-    color: #333;
-}
 p {
     font-size: 1em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -40,7 +34,7 @@ p {
 }
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .5em;
+    font-size: .6em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 ul.posts { 
