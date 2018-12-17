@@ -27,7 +27,10 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 ul  {
+    font-size: 1em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    line-height: 1.2em;
+    color: #333;
 }
 p {
     font-size: 1em;
