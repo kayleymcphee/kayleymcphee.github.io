@@ -1,31 +1,237 @@
-<!DOCTYPE HTML>
-<html lang=en>
-<head>
-	<title>{{ page.title }}</title>
-	<!-- link to main stylesheet -->
-	<link rel="stylesheet" type="text/css" href="/css/fun.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="UTF-8">
-	
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ★ nana layout ★ </title> 
+    <style>
+     body{
+background:#fcf1f6;
+    color:#be778d;
+    font-family: 'basiic';
+}
+
+     @font-face{
+      font-family: 'basiic';
+  src: url(https://cinni.net/fonts/basiic.ttf);
+    }
+::selection {
+  background:pink;
+color:#e000c3;
+}
+
+a{
+  color:#be778d;
+  letter-spacing:1px;
+}
+a:hover{
+  color:#f524a9;
+}
+
+hr{
+  color:#be778d;
+  border-top:1px solid #be778d;
+  border-left:none;
+  border-right:none;
+  border-bottom:none;
+  width:70%;
+}
+
+h1{
+  text-transform:uppercase;
+  background: linear-gradient(0deg, rgba(190,119,141,1) 0%, 
+rgba(190,119,141,1) 5%, rgba(235,183,194,0) 5%, rgba(249,162,243,0) 100%);
+  font-size:1.2em;
+  padding:1px;
+  padding-left:12px;
+  font-weight: bold;
+  letter-spacing:2px;
+  text-align:left;
+}
+
+h2{
+  text-transform:uppercase;
+background: linear-gradient(90deg, rgba(249,162,243,0) 0%, rgba(235,183,194,1) 25%, rgba(235,183,194,1) 75%, rgba(249,162,243,0) 100%);
+  font-size:1em;
+  padding:1px;
+  color:white;
+  letter-spacing:2px;
+}
+
+span{
+  font-weight:bold;
+}
+
+p{
+  text-align:left;
+  margin:15px;
+}
+
+.body{
+ margin: 0 auto;
+  width:900px;
+  background-image:url("https://cinni.net/fruitykitty/layout/nana-bg-1.png");
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  height:650px;
+  margin-top:30px;
+}
+
+.layoutimg{
+  margin:0 auto;
+  width:100%;
+  height:auto;
+  position:relative;
+  z-index:0;
+}
+
+.content{
+  z-index:1;
+  position:relative;
+  float:right;
+  width:50%;
+  valign:top;
+  padding:10px;
+  height:575px;
+  margin-top:30px;
+ /*background:rgba(204,129,247,0.5);*/
+}
+
+.header{
+  padding:5px;
+  margin:5px;
+  font-size:1em;
+    color:#be778d;
+  font-weight:Bold;
+  text-shadow: 0 0 5px white;
+  text-align:right;
+}
+
+.nav{
+  padding:5px;
+background: #fcf1f6;
+  border:1px solid #be778d;
+  border-radius:2px;
+  margin:5px;
+  font-size:.9em;
+}
+.nav a{
+  margin:1px;
+  padding:1px;
+}
+
+.blog{
+  padding:5px;
+  background: #fcf1f6;
+  border:1px solid #be778d;
+  border-radius:2px;
+  Margin:5px;
+  font-size:.9em;
+  height:80%;
+  overflow: auto;
+}
+
+.blog img{
+width:auto;
+  max-width:80%;
+  height:auto;
+  margin:3px;
+
+}
+
+.footer{
+  text-align:right;
+  font-size:.6em;
+  padding:0;
+  margin:5px;
+  color:#e2bfe2;
+}
+
+.footer a{
+  color:pink;
+  background:none;
+}
+
+.icon{
+  width:100px;
+  height:100px;
+  border:1px solid #be778d;
+  float:right;
+  padding:1px;
+  margin:5px;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+background: #fcf1f6;
+}
+::-webkit-scrollbar-track {
+   background: #fcf1f6;
+border-radius: 0px;
+width: 0px;
+border: 1px dotted #be778d;
+}
+::-webkit-scrollbar-thumb {
+background: #f0d0df;
+border: 1px dotted #be778d;
+border-radius: 0px;
+}
+
+    @media screen and (max-aspect-ratio:16/9) {
+      .body{
+        width:400px;
+  background-image:url("https://cinni.net/fruitykitty/layout/nana-bg-mobile.png");
+  height:600px;
+    margin-top:10px;
+      }
+      body{
+        height:100%;
+      }
+      .content{
+      width:95%;
+      height:490px;
+          margin-top:75px;
+      }
+      
+      .header{
+        background:#fcf1f6;
+      }
+
+    </style>
 </head>
-<body>
-		<nav>
-    		<ul>
-        		<li><a href="https://kayleymcphee.com/fun/index.html">Home</a></li>
-	        	<li><a href="https://kayleymcphee.com/blog/index.html">Blog</a></li>
-            		<li><a href="https://kayleymcphee.com/fun/gallery.html">Gallery</a></li>
-            		<li><a href="https://kayleymcphee.com/fun/enthusiasm.html">Likes & Links</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-      
-      {{ content }}
-      
-    </div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li>Kayley McPhee 2020</li><li>Looking for the professional site? Click <a href="https://kayleymcphee.com/index.html">here.</a></li>
-		</ul>
-		</footer>
-	</body>
+  <body>
+    <center>
+  <div class="body">
+    <div class="content">
+      <div class="header">
+      <!--YOUR TITLE HERE-->
+        <center>･ﾟ･★your title here (´｡• ω •｡`)★･ﾟ･</center>
+      </div>
+      <div class="nav">･ﾟ･ 
+      <!--YOUR LINKS HERE-->
+        <a href="">home</a> | <a href="">about</a> | <a href="">fun stuff</a> | <a href="">links</a> | <a href="">misc</a> ･ﾟ･
+      </div>
+      <div class="blog">
+      <!--YOUR CONTENT HERE-->
+                <h1>this is a header ( ´ ∀ `)ノ～ ♡</h1>
+        <p> <img src="https://cinni.net/fruitykitty/layout/nana-icon.png" class="icon"> <i>blah</i> <b>blah</b> <u>blah</u> <s>blah</s> <a href="">blah</a> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah (´• ω •`) ♡</p>
+        <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. (・_・ヾ </p>
+              <h2>this is a header2 (=^-ω-^=)</h2>
+              <p>
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. （＾・ω・＾✿）</p>
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Ifre4Iy5l9NHtIHRKmTsqQEsDh%26pid%3DApi&f=1">
+        <p>images will resize to fit container if too big! ♡(ﾐ ᵕ̣̣̣̣̣̣ ﻌ ᵕ̣̣̣̣̣̣ ﾐ)ﾉ </p>
+
+      </div>
+      <div class="footer">
+        <i>nana layout by <a href="https://cinni.net" target="_blank">cinni.net</a> 2021</i>
+      </div>
+    </div>
+  </div>
+</center>
+
+  </body>
 </html>
