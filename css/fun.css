@@ -1,5 +1,5 @@
      body{
-background:#b2d1b9;
+background:#d1f0d8;
     color:#384d3d;
     font-family: 'basiic';
 }
@@ -9,7 +9,7 @@ background:#b2d1b9;
   src: url(https://cinni.net/fonts/basiic.ttf);
     }
 ::selection {
-  background:green;
+  background:#91cfa0;
 color:#5b9e44;
 }
 
@@ -102,7 +102,7 @@ p{
 
 .nav{
   padding:5px;
-background: #b2d1b9;
+background: #d1f0d8;
   border:1px solid #384d3d;
   border-radius:2px;
   margin:5px;
@@ -115,7 +115,7 @@ background: #b2d1b9;
 
 .blog{
   padding:5px;
-  background: #b2d1b9;
+  background: #d1f0d8;
   border:1px solid #384d3d;
   border-radius:2px;
   Margin:5px;
@@ -141,7 +141,7 @@ width:auto;
 }
 
 .footer a{
-  color:green;
+  color:#91cfa0;
   background:none;
 }
 
@@ -158,16 +158,16 @@ width:auto;
 ::-webkit-scrollbar {
 width: 12px;
 height: 12px;
-background: #b2d1b9;
+background: #d1f0d8;
 }
 ::-webkit-scrollbar-track {
-   background: #b2d1b9;
+   background: #d1f0d8;
 border-radius: 0px;
 width: 0px;
 border: 1px dotted #384d3d;
 }
 ::-webkit-scrollbar-thumb {
-background: #b2d1b9;
+background: #d1f0d8;
 border: 1px dotted #384d3d;
 border-radius: 0px;
 }
@@ -189,5 +189,5 @@ border-radius: 0px;
       }
       
       .header{
-        background:#b2d1b9;
+        background:#d1f0d8;
       }
