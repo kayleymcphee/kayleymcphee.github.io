@@ -1,6 +1,6 @@
      body{
-background:#fcf1f6;
-    color:#be778d;
+background:#b2d1b9;
+    color:#384d3d;
     font-family: 'basiic';
 }
 
@@ -9,21 +9,21 @@ background:#fcf1f6;
   src: url(https://cinni.net/fonts/basiic.ttf);
     }
 ::selection {
-  background:pink;
-color:#e000c3;
+  background:green;
+color:#5b9e44;
 }
 
 a{
-  color:#be778d;
+  color:#384d3d;
   letter-spacing:1px;
 }
 a:hover{
-  color:#f524a9;
+  color:#5b9e44;
 }
 
 hr{
-  color:#be778d;
-  border-top:1px solid #be778d;
+  color:#384d3d;
+  border-top:1px solid #384d3d;
   border-left:none;
   border-right:none;
   border-bottom:none;
@@ -87,14 +87,14 @@ p{
   padding:10px;
   height:575px;
   margin-top:30px;
- /*background:rgba(204,129,247,0.5);*/
+ /*background:rgba(130,209,139,0.5);*/
 }
 
 .header{
   padding:5px;
   margin:5px;
   font-size:1em;
-    color:#be778d;
+    color:#384d3d;
   font-weight:Bold;
   text-shadow: 0 0 5px white;
   text-align:right;
@@ -102,8 +102,8 @@ p{
 
 .nav{
   padding:5px;
-background: #fcf1f6;
-  border:1px solid #be778d;
+background: #b2d1b9;
+  border:1px solid #384d3d;
   border-radius:2px;
   margin:5px;
   font-size:.9em;
@@ -115,8 +115,8 @@ background: #fcf1f6;
 
 .blog{
   padding:5px;
-  background: #fcf1f6;
-  border:1px solid #be778d;
+  background: #b2d1b9;
+  border:1px solid #384d3d;
   border-radius:2px;
   Margin:5px;
   font-size:.9em;
@@ -141,14 +141,14 @@ width:auto;
 }
 
 .footer a{
-  color:pink;
+  color:green;
   background:none;
 }
 
 .icon{
   width:100px;
   height:100px;
-  border:1px solid #be778d;
+  border:1px solid #384d3d;
   float:right;
   padding:1px;
   margin:5px;
@@ -158,17 +158,17 @@ width:auto;
 ::-webkit-scrollbar {
 width: 12px;
 height: 12px;
-background: #fcf1f6;
+background: #b2d1b9;
 }
 ::-webkit-scrollbar-track {
-   background: #fcf1f6;
+   background: #b2d1b9;
 border-radius: 0px;
 width: 0px;
-border: 1px dotted #be778d;
+border: 1px dotted #384d3d;
 }
 ::-webkit-scrollbar-thumb {
-background: #f0d0df;
-border: 1px dotted #be778d;
+background: #b2d1b9;
+border: 1px dotted #384d3d;
 border-radius: 0px;
 }
 
@@ -189,5 +189,5 @@ border-radius: 0px;
       }
       
       .header{
-        background:#fcf1f6;
+        background:#b2d1b9;
       }
