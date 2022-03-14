@@ -63,7 +63,7 @@ p{
 .body{
  margin: 0 auto;
   width:900px;
-  background-image:url("https://cinni.net/fruitykitty/layout/nana-bg-1.png");
+  background-image:url("https://glouptidoo.com/assets/images/image02.jpg");
   background-size:100% 100%;
   background-repeat:no-repeat;
   height:650px;
@@ -175,7 +175,7 @@ border-radius: 0px;
     @media screen and (max-aspect-ratio:16/9) {
       .body{
         width:400px;
-  background-image:url("https://cinni.net/fruitykitty/layout/nana-bg-mobile.png");
+  background-image:url("https://glouptidoo.com/assets/images/image01.jpg");
   height:600px;
     margin-top:10px;
       }
